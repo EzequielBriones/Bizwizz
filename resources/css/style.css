@@ -453,6 +453,9 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: -15rem; }
+    @media only screen and (max-width: 20em) {
+      .header__bar {
+        transform: translateX(2.5rem); } }
   .header__logo {
     height: 12rem;
     width: auto; }

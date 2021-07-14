@@ -31,6 +31,9 @@
     display: flex;
     justify-content: space-between;
     margin-top: -15rem;
+    @media only screen and (max-width: $breakpoint-320) {
+      transform: translateX(2.5rem);
+    }
   }
 
   &__logo {
