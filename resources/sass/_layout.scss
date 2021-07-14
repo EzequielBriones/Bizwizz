@@ -1,0 +1,229 @@
+//////////////////////////////////////////////////
+//////////////////HEADER SECTION//////////////////
+//////////////////////////////////////////////////
+
+.header {
+  width: 100%;
+  height: 90vh;
+  background-color: var(--color-black);
+  background-image: url(header-img-2.jpg);
+  background-size: 64rem;
+  background-position: 90% 48%;
+  background-repeat: no-repeat;
+  position: relative;
+
+  @media only screen and (max-width: $breakpoint-1024) {
+    height: 110vh;
+    background-size: cover;
+  }
+
+  @media only screen and (max-width: $breakpoint-500) {
+    height: 120vh;
+    background-size: cover;
+  }
+
+  @media only screen and (max-width: $breakpoint-425) {
+    height: 125vh;
+    background-size: cover;
+  }
+
+  &__bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15rem;
+  }
+
+  &__logo {
+    height: 12rem;
+    width: auto;
+    @media only screen and (max-width: $breakpoint-320) {
+      height: 14rem;
+      width: auto;
+      margin-top: 1rem;
+    }
+  }
+
+  &__main-nav {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 2rem 0 0;
+
+    @media only screen and (max-width: $breakpoint-425) {
+      margin: 5rem 5rem;
+    }
+
+    @media only screen and (max-width: $breakpoint-375) {
+      margin: 5rem 3rem;
+    }
+
+    @media only screen and (max-width: $breakpoint-320) {
+      margin: 4rem 1rem 0 2rem;
+    }
+
+    & li {
+      margin-left: 4rem;
+
+      @media only screen and (max-width: $breakpoint-425) {
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+      }
+
+      & a:link,
+      & a:visited,
+      & a:focus {
+        color: var(--color-white);
+        text-decoration: none;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        display: block;
+        padding-bottom: 0.8rem;
+        border-bottom: 2px solid transparent;
+        -webkit-transition: border-bottom 0.4s;
+        transition: border-bottom 0.4s;
+        outline: none;
+      }
+
+      & a:hover,
+      & a:active,
+      & a:focus {
+        border-bottom: 2px solid var(--color-primary);
+        outline: none;
+      }
+    }
+  }
+
+  &__box {
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    text-align: left;
+  }
+
+  &__text-box h1 {
+    font-size: 6rem;
+    color: var(--color-primary);
+    font-weight: 500;
+  }
+
+  &__text-box h2 {
+    font-size: 5rem;
+    color: var(--color-white);
+    width: 50%;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+}
+
+////////////////////////////////////////////////////
+//////////////////FOR THE SECTIONS//////////////////
+////////////////////////////////////////////////////
+
+.section-services,
+.section-team,
+.section-portfolio,
+.section-testimonials,
+.section-contact {
+  background-color: var(--color-white);
+  text-align: center;
+  padding-bottom: 8rem;
+}
+
+.section-header h2 {
+  color: var(--color-primary);
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 1.4rem;
+}
+
+.section-header h1 {
+  color: var(--color-darkgrey);
+  font-size: 4.8rem;
+  text-transform: capitalize;
+  margin-bottom: 2.8rem;
+}
+
+.section-team,
+.section-testimonials {
+  background-color: var(--color-black);
+}
+
+.section-cta {
+  background-color: var(--color-darkgrey-2);
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 1rem;
+  align-items: baseline;
+  flex-wrap: wrap;
+
+  @media only screen and (max-width: $breakpoint-768) {
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: $breakpoint-425) {
+    text-align: center;
+  }
+
+  &__nav {
+    @media only screen and (max-width: $breakpoint-768) {
+      margin: 2rem;
+    }
+
+    @media only screen and (max-width: $breakpoint-425) {
+      margin-top: 3rem;
+    }
+
+    @media only screen and (max-width: $breakpoint-375) {
+      font-size: 1.5rem;
+      margin: 3rem 2rem;
+    }
+
+    @media only screen and (max-width: $breakpoint-320) {
+      font-size: 1.3rem;
+      margin: 3rem 1rem;
+    }
+
+    & ul {
+      list-style: none;
+      display: flex;
+
+      & li {
+        margin-left: 1rem;
+
+        & a {
+          text-decoration: none;
+          color: var(--color-white);
+          padding-bottom: 0.8rem;
+
+          &:link,
+          &:visited,
+          &:focus {
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.2s;
+            outline: none;
+          }
+
+          &:hover,
+          &:active,
+          &:focus {
+            border-bottom: 2px solid var(--color-primary);
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+
+  &__author {
+    text-decoration: none;
+    color: var(--color-white);
+  }
+}
