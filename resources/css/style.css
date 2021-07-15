@@ -453,9 +453,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: -15rem; }
-    @media only screen and (max-width: 20em) {
-      .header__bar {
-        transform: translateX(2.5rem); } }
   .header__logo {
     height: 12rem;
     width: auto; }
@@ -484,6 +481,9 @@ body {
         .header__main-nav li {
           margin-left: 4rem;
           margin-bottom: 1rem; } }
+      @media only screen and (max-width: 22.8125em) {
+        .header__main-nav li {
+          transform: translateX(8rem); } }
       .header__main-nav li a:link,
       .header__main-nav li a:visited,
       .header__main-nav li a:focus {
