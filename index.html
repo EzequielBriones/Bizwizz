@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- ------------------------------ Meta Tags -------------------------------->
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ------------------------------ End of Meta Tags -------------------------------->
 
-    <link href="https://fonts.googleapis.com/css?family=Work Sans:100,300,400,500,800" rel="stylesheet" type="text/css" />
+    <!-- ------------------------------ Style Link -------------------------------->
     <link rel="stylesheet" href="resources/css/style.css" />
+    <!-- ------------------------------ End of Style Link -------------------------------->
 
-    <!--FAVICONS-->
+    <!-- ------------------------------ Font Link -------------------------------->
+    <link href="https://fonts.googleapis.com/css?family=Work Sans:100,300,400,500,800" rel="stylesheet" type="text/css" />
+    <!-- ------------------------------ End of Font Link -------------------------------->
+
+    <!-- ------------------------------ Favicons -------------------------------->
     <link rel="apple-touch-icon" sizes="180x180" href="vendors/favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="vendors/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="vendors/favicon/favicon-16x16.png" />
     <link rel="manifest" href="vendors/favicon/site.webmanifest" />
+    <!-- ------------------------------ End of Favicons -------------------------------->
 
+    <!-- ------------------------------ Title Tag -------------------------------->
     <title>Bizwizz</title>
+    <!-- ------------------------------ End of Title Tag -------------------------------->
   </head>
 
   <body>
-    <!-- HEADER SECTION -->
+    <!-- ------------------------------ Header Start -------------------------------->
     <header class="header">
       <div style="height: 150px; overflow: hidden">
         <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
@@ -26,13 +37,16 @@
       </div>
       <div class="header__bar">
         <img src="resources/img/Bizwizz-white-font.png" alt="Bizwhizz logo" class="header__logo" />
+
+        <!-- ///// Nav Start /////-->
         <nav>
           <ul class="header__main-nav">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About us</a></li>
           </ul>
         </nav>
+        <!-- ///// Nav End /////-->
       </div>
       <div class="header__box">
         <div class="header__text-box">
@@ -44,10 +58,10 @@
         </div>
       </div>
     </header>
+    <!-- ------------------------------ Header End -------------------------------->
 
-    <!-- SERVICES SECTION -->
-
-    <div class="section-services">
+    <!-- ------------------------------ Services Section Start -------------------------------->
+    <section class="section-services" id="about">
       <div style="height: 150px; overflow: hidden">
         <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
           <path d="M0.28,17.27 C125.56,102.13 271.49,-49.98 501.41,43.91 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #000"></path>
@@ -60,65 +74,91 @@
       </div>
 
       <div class="services">
+        <!-- ///// Start of First Service /////-->
         <div class="service-box">
           <svg class="service-box__icon">
             <use xlink:href="vendors/icomoon/symbol-defs.svg#icon-strategy"></use>
           </svg>
           <h5 class="service-box__title">Digital Marketing</h5>
         </div>
+        <!-- ///// End of First Service /////-->
+
+        <!-- ///// Start of Second Service /////-->
         <div class="service-box">
           <svg class="service-box__icon">
             <use xlink:href="vendors/icomoon/symbol-defs.svg#icon-desktop"></use>
           </svg>
           <h5 class="service-box__title">UX design</h5>
         </div>
+        <!-- ///// End of Second Service /////-->
+
+        <!-- ///// Start of Third Service /////-->
         <div class="service-box">
           <svg class="service-box__icon">
             <use xlink:href="vendors/icomoon/symbol-defs.svg#icon-picture"></use>
           </svg>
           <h5 class="service-box__title">Product Design</h5>
         </div>
+        <!-- ///// End of Third Service /////-->
+
+        <!-- ///// Start of Fourth Service /////-->
         <div class="service-box">
           <svg class="service-box__icon">
             <use xlink:href="vendors/icomoon/symbol-defs.svg#icon-pencil"></use>
           </svg>
           <h5 class="service-box__title">Content Writing</h5>
         </div>
+        <!-- ///// End of Fourth Service /////-->
+
+        <!-- ///// Start of Fifth Service /////-->
         <div class="service-box">
           <svg class="service-box__icon">
             <use xlink:href="vendors/icomoon/symbol-defs.svg#icon-expand"></use>
           </svg>
           <h5 class="service-box__title">Concept Development</h5>
         </div>
+        <!-- ///// End of Fifth Service /////-->
+
+        <!-- ///// Start of Sixth Service /////-->
         <div class="service-box">
           <svg class="service-box__icon">
             <use xlink:href="vendors/icomoon/symbol-defs.svg#icon-megaphone"></use>
           </svg>
           <h5 class="service-box__title">Social Outreach</h5>
         </div>
+        <!-- ///// End of Sixth Service /////-->
+
+        <!-- ///// Start of Seventh Service /////-->
         <div class="service-box">
           <svg class="service-box__icon">
             <use xlink:href="vendors/icomoon/symbol-defs.svg#icon-video"></use>
           </svg>
           <h5 class="service-box__title">Media Planning</h5>
         </div>
+        <!-- ///// End of Seventh Service /////-->
+
+        <!-- ///// Start of Eighth Service /////-->
         <div class="service-box">
           <svg class="service-box__icon">
             <use xlink:href="vendors/icomoon/symbol-defs.svg#icon-trophy"></use>
           </svg>
           <h5 class="service-box__title">Branding</h5>
         </div>
+        <!-- ///// End of Eighth Service /////-->
+
+        <!-- ///// Start of Ninth Service /////-->
         <div class="service-box">
           <svg class="service-box__icon">
             <use xlink:href="vendors/icomoon/symbol-defs.svg#icon-map"></use>
           </svg>
           <h5 class="service-box__title">SEO</h5>
         </div>
+        <!-- ///// End of Ninth Service /////-->
       </div>
-    </div>
+    </section>
+    <!-- ------------------------------ Services Section End -------------------------------->
 
-    <!-- TEAM SECTION -->
-
+    <!-- ------------------------------ Team Section Start -------------------------------->
     <section class="section-team">
       <div style="height: 150px; overflow: hidden">
         <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
@@ -130,6 +170,7 @@
         <h1>lorem ipsum dolor sit amet</h1>
       </div>
       <div class="team-mates">
+        <!-- ///// Start of First Teammate /////-->
         <div class="team-mate team-mate--1">
           <div class="team-mate__overlay"></div>
           <div class="team-mate__content">
@@ -160,7 +201,9 @@
             </div>
           </div>
         </div>
+        <!-- ///// End of First Teammate /////-->
 
+        <!-- ///// Start of Second Teammate /////-->
         <div class="team-mate team-mate--2">
           <div class="team-mate__overlay"></div>
           <div class="team-mate__content">
@@ -191,7 +234,9 @@
             </div>
           </div>
         </div>
+        <!-- ///// End of Second Teammate /////-->
 
+        <!-- ///// Start of Third Teammate /////-->
         <div class="team-mate team-mate--3">
           <div class="team-mate__overlay"></div>
           <div class="team-mate__content">
@@ -222,11 +267,12 @@
             </div>
           </div>
         </div>
+        <!-- ///// End of Third Teammate /////-->
       </div>
     </section>
+    <!-- ------------------------------ Team Section End -------------------------------->
 
-    <!-- PORTFOLIO SECTION -->
-
+    <!-- ------------------------------ Portfolio Section Start -------------------------------->
     <section class="section-portfolio">
       <div style="height: 150px; overflow: hidden">
         <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
@@ -240,23 +286,31 @@
       </div>
 
       <div class="portfolio">
+        <!-- ///// Start of First Column /////-->
         <div class="portfolio__column">
           <div class="portfolio__image"><img src="resources/img/portfolio-image-1.jpg" alt="Imagen de muestra 1" /></div>
           <div class="portfolio__image"><img src="resources/img/portfolio-image-2.jpg" alt="Imagen de muestra 2" /></div>
         </div>
+        <!-- ///// End of First Column /////-->
+
+        <!-- ///// Start of Second Column /////-->
         <div class="portfolio__column">
           <div class="portfolio__image"><img src="resources/img/portfolio-image-3.jpg" alt="Imagen de muestra 3" /></div>
           <div class="portfolio__image"><img src="resources/img/portfolio-image-4.jpg" alt="Imagen de muestra 4" /></div>
         </div>
+        <!-- ///// End of Second Column /////-->
+
+        <!-- ///// Start of Third Column /////-->
         <div class="portfolio__column">
           <div class="portfolio__image"><img src="resources/img/portfolio-image-5.jpg" alt="Imagen de muestra 5" /></div>
           <div class="portfolio__image"><img src="resources/img/portfolio-image-6.jpg" alt="Imagen de muestra 6" /></div>
         </div>
+        <!-- ///// End of Third Column /////-->
       </div>
     </section>
+    <!-- ------------------------------ Portfolio Section End -------------------------------->
 
-    <!-- TESTIMONIALS SECTION -->
-
+    <!-- ------------------------------ Testimonials Section Start -------------------------------->
     <section class="section-testimonials">
       <div style="height: 150px; overflow: hidden">
         <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
@@ -289,7 +343,7 @@
           </div>
 
           <div class="carousel__slider">
-            <!-- Testimonial--card-1-->
+            <!-- ///// Start of First Testimonial /////-->
             <div class="testimonial-card">
               <div class="testimonial-card__stars">
                 <svg class="testimonial-card__icon">
@@ -308,10 +362,7 @@
                   <use xlink:href="vendors/icomoon/symbol-defs.svg#icon-star"></use>
                 </svg>
               </div>
-              <div class="testimonial-card__para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem quos suscipit asperiores maiores possimus magnam voluptate, numquam
-                sint dolor.
-              </div>
+              <div class="testimonial-card__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem quos suscipit asperiores maiores possimus magnam voluptate, numquam sint dolor.</div>
               <div class="testimonial-card__client">
                 <div class="image-shape">
                   <img src="resources/img/client-1.jpg" alt="Imagen de cliente 1" />
@@ -322,8 +373,9 @@
                 </div>
               </div>
             </div>
+            <!-- ///// End of First Testimonial /////-->
 
-            <!-- Testimonial--card-2-->
+            <!-- ///// Start of Second Testimonial /////-->
             <div class="testimonial-card">
               <div class="testimonial-card__stars">
                 <svg class="testimonial-card__icon">
@@ -342,10 +394,7 @@
                   <use xlink:href="vendors/icomoon/symbol-defs.svg#icon-star-full"></use>
                 </svg>
               </div>
-              <div class="testimonial-card__para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem quos suscipit asperiores maiores possimus magnam voluptate, numquam
-                sint dolor.
-              </div>
+              <div class="testimonial-card__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem quos suscipit asperiores maiores possimus magnam voluptate, numquam sint dolor.</div>
               <div class="testimonial-card__client">
                 <div class="image-shape">
                   <img src="resources/img/client-2.jpg" alt="Imagen de cliente 2" />
@@ -356,8 +405,9 @@
                 </div>
               </div>
             </div>
+            <!-- ///// End of Second Testimonial /////-->
 
-            <!-- Testimonial--card-3-->
+            <!-- ///// Start of Third Testimonial /////-->
             <div class="testimonial-card">
               <div class="testimonial-card__stars">
                 <svg class="testimonial-card__icon">
@@ -376,10 +426,7 @@
                   <use xlink:href="vendors/icomoon/symbol-defs.svg#icon-star"></use>
                 </svg>
               </div>
-              <div class="testimonial-card__para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem quos suscipit asperiores maiores possimus magnam voluptate, numquam
-                sint dolor.
-              </div>
+              <div class="testimonial-card__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quidem quos suscipit asperiores maiores possimus magnam voluptate, numquam sint dolor.</div>
               <div class="testimonial-card__client">
                 <div class="image-shape">
                   <img src="resources/img/client-3.jpg" alt="Imagen de cliente 3" />
@@ -390,14 +437,15 @@
                 </div>
               </div>
             </div>
+            <!-- ///// End of Third Testimonial /////-->
           </div>
         </div>
       </div>
     </section>
+    <!-- ------------------------------ Testimonials Section End -------------------------------->
 
-    <!-- CONTACT SECTION -->
-
-    <section class="section-contact">
+    <!-- ------------------------------ Contact Section Start -------------------------------->
+    <section class="section-contact" id="contact">
       <div style="height: 150px; overflow: hidden">
         <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
           <path d="M0.28,17.27 C125.56,102.13 271.49,-49.98 501.41,43.91 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #000"></path>
@@ -410,11 +458,9 @@
       <div class="contact">
         <div class="contact__column contact__column--left">
           <h2>Get in Touch</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo, luctus nec
-            ullamcorper mattis.
-          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo, luctus nec ullamcorper mattis.</p>
           <div class="contact__info">
+            <!-- ///// Start of Contact Info /////-->
             <!-- Address -->
             <div class="contact__icon-div">
               <svg class="contact__icon">
@@ -454,10 +500,12 @@
             </div>
           </div>
         </div>
+        <!-- ///// End of Contact Info /////-->
 
         <div class="contact__column contact__column--right">
           <h2>Shoot Us a Message</h2>
           <div class="contact__form">
+            <!-- ///// Start of Contact Form /////-->
             <form action="" target="#" class="form">
               <div class="form__name-email">
                 <input type="text" id="name" class="form__input" placeholder="Full Name" required />
@@ -469,6 +517,7 @@
                 <a href="#" class="btn">Send Message</a>
               </div>
             </form>
+            <!-- ///// End of Contact Form /////-->
           </div>
         </div>
       </div>
@@ -478,11 +527,12 @@
         <path d="M0.28,17.27 C125.56,102.13 271.49,-49.98 501.41,43.91 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #fff"></path>
       </svg>
     </div>
+    <!-- ------------------------------ Contact Section End -------------------------------->
 
-    <!-- CTA SECTION -->
-
+    <!-- ------------------------------ CTA Section Start -------------------------------->
     <section class="section-cta">
       <div class="cta-container">
+        <!-- ///// Start of Social Icons /////-->
         <div class="social-icons">
           <a href="#">
             <svg class="social-icons__facebook">
@@ -500,6 +550,8 @@
             </svg>
           </a>
         </div>
+        <!-- ///// End of Social Icons /////-->
+
         <div class="cta">
           <h2>Let´s Talk</h2>
         </div>
@@ -508,15 +560,16 @@
         </div>
       </div>
     </section>
+    <!-- ------------------------------ CTA Section End -------------------------------->
 
-    <!-- FOOTER SECTION -->
-
+    <!-- ------------------------------ Footer Start -------------------------------->
     <footer class="footer">
+      <!-- ///// Start of Footer Disclaimer /////-->
       <div class="footer__copyright">
-        <p>
-          This webpage has been created by <a href="#" class="footer__author">Nahid Akhter</a> and <a href="#" class="footer__author">Juan Galvan</a>
-        </p>
+        <p>This webpage has been created by <a href="#" class="footer__author">Nahid Akhter</a> and <a href="#" class="footer__author">Juan Galvan</a></p>
       </div>
+      <!-- ///// End of Footer Disclaimer /////-->
+      <!-- ///// Start of Footer Links /////-->
       <div class="footer__nav">
         <ul>
           <li><a href="#">Terms of Use</a></li>
@@ -524,8 +577,12 @@
           <li><a href="#">Cookie Policy</a></li>
         </ul>
       </div>
+      <!-- ///// End of Footer Links /////-->
     </footer>
-  </body>
+    <!-- ------------------------------ Footer End -------------------------------->
 
-  <script src="resources/Js/slider.js"></script>
+    <!-- ------------------------------ Javascript Script Start -------------------------------->
+    <script src="resources/Js/slider.js"></script>
+    <!-- ------------------------------ Javascript Script End -------------------------------->
+  </body>
 </html>
